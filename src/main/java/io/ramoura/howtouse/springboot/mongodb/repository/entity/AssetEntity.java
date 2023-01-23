@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "asset")
 @Getter
 @Builder
-public class Asset {
+public class AssetEntity {
     @Id
     private String id;
     private String ticker;
