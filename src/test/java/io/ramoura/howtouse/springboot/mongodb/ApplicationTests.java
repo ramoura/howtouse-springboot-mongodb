@@ -1,10 +1,10 @@
-package io.ramoura.howtouse.springboot.mongodb.howtousespringbootmongodb;
+package io.ramoura.howtouse.springboot.mongodb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HowtouseSpringbootMongodbApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
