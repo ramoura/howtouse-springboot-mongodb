@@ -20,8 +20,8 @@ public class AssetController {
 
     @PostMapping("/asset")
     public ResponseEntity post(@RequestBody Asset assetBody) {
-        createAsset.create(assetBody);
-        return ResponseEntity.created(URI.create("/get")).build();
+        String id = createAsset.create(assetBody);
+        return ResponseEntity.created(URI.create("/asset/"+id)).build();
     }
 
 }
