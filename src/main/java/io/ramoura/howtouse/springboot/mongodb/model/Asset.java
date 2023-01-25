@@ -1,10 +1,10 @@
 package io.ramoura.howtouse.springboot.mongodb.model;
 
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 
 @Builder
-@Data
+@Getter
 public class Asset {
     private String ticker;
 
